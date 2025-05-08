@@ -9,6 +9,9 @@ interface ApiService {
     @GET("quotes")
     fun getQuotes(): Call<QuotesResponse>
 
+    @GET("products")
+    fun getProducts(): Call<ProductsResponse>
+
 //    @POST("quotes")
 //    fun postQuotes(
 //        @Body quotesItem: QuotesItem
